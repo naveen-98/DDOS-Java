@@ -1,11 +1,11 @@
+/*
+Author:- N4VIYA98 (Naveen Wijesinghe)
+*/
+
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-/*
-Author :- N4VIYA98 
-*/
 
 public class DdosAttack {
 
