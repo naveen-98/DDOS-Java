@@ -1,5 +1,5 @@
 # DDOS-Java
-Java code used to create DDOS Attack.
+Java Code is used to create DDOS Attack.
 
 This is totally a DDOS attack I did. And this was done for educational purposes only. The language used for this is Java. This shows how to do a DDoS attack in a very simple and small way. 
 
