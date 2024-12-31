@@ -1,8 +1,61 @@
 # DDOS-Java
-Java Code is used to create DDOS Attack.
 
-This is totally a DDOS attack I did. And this was done for educational purposes only. The language used for this is Java. This shows how to do a DDoS attack in a very simple and Small way. 
+## Overview
 
-A DDoS attack is an attempt by an individual or a group of individuals to create a node for a victim's website or its prospective users to refuse service. When an attack is made on one victim destination from different sources it is called DDoS. This attack is more powerful than the DoS attack. When it comes to moral intrusion, a DDoS attack is often referred to as a stress test.
+**DDOS-Java** is a Java-based simulation of a Distributed Denial of Service (DDoS) attack. The code demonstrates how such an attack can be implemented in a simple way. This project is designed for educational purposes to help understand the mechanics of DDoS attacks and should not be used for malicious purposes.
 
-I repeat, use this for educational purposes only.
+## Features
+
+- Simulates a basic DDoS attack using multithreading.
+- Sends multiple HTTP GET requests to a specified target URL.
+- Demonstrates the principles of overloading a target server with excessive requests.
+
+## Educational Purpose
+
+This project serves to illustrate how a DDoS attack works and how malicious actors might exploit such techniques. By studying this simulation, developers and security professionals can better understand how to defend against such attacks.
+
+## How It Works
+
+1. The code creates multiple threads (2,000 by default).
+2. Each thread sends continuous HTTP GET requests to the specified target URL.
+3. The target server may become overwhelmed due to the high volume of requests.
+
+### Code Structure
+
+- **`DdosAttack`**: The main class that initializes and starts multiple threads for the attack.
+- **`DdosThread`**: A thread class responsible for sending requests to the target URL in a loop.
+- **HTTP Requests**: Each thread uses `HttpURLConnection` to send requests with headers resembling a browser.
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed.
+- Basic knowledge of Java programming and multithreading.
+- A test environment (never use this code on unauthorized targets).
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Open the project in your preferred Java IDE or editor.
+3. Modify the target URL in the `DdosThread` class (default: `https://www.hackthissite.org`).
+4. Compile and run the program:
+   ```bash
+   javac DdosAttack.java
+   java DdosAttack
+   ```
+
+## Important Notes
+
+- Use this project only for educational purposes and in a controlled environment.
+- Testing DDoS attacks without permission is illegal and unethical.
+- The author does not take responsibility for any misuse of this code.
+
+## Author
+
+- **N4VIYA98 (Naveen Wijesinghe)**
+
+## License
+
+This project is licensed for educational use only. Unauthorized or malicious use is strictly prohibited.
