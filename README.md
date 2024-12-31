@@ -46,6 +46,11 @@ This project serves to illustrate how a DDoS attack works and how malicious acto
    java DdosAttack
    ```
 
+## Demo
+
+Watch the demo video to see how this project works:
+[![DDoS-Java Demo](https://img.youtube.com/vi/66yE7DAoKxA/0.jpg)](https://youtu.be/66yE7DAoKxA?si=fEpBSKeqAfO2CS4G)
+
 ## Important Notes
 
 - Use this project only for educational purposes and in a controlled environment.
